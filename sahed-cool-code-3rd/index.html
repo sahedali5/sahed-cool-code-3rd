@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/62f0d2d47c.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <section class="container mx-auto">
+            <header class="lg:mx-20 p-3">
+                <nav>
+                    <div class="navbar bg-base-100">
+                        <div class="navbar-start flex-grow justify-between md:justify-center">
+                            <div>
+                                <a> <img class="max-sm:hidden" src="c2-assets/logo-header.png" alt="" /> </a>
+                                <a href=""><img class="md:hidden lg:hidden" src="c2-assets/icons8-tree-64.png" alt="" /></a>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0" role="button" class="btn btn-ghost md:hidden lg:hidden">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navbar-center flex-start hidden md:flex lg:flex">
+                            <ul class="menu menu-horizontal px-1">
+                                <li><a>Product</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar-end hidden lg:flex">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <button class="btn btn-outline btn-info">Login</button>
+                                <button class="btn btn-info">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </section>
+        <hr class="border-lime-400 md:hidden lg:hidden" />
+        <main>
+            <section class="container mx-auto mt-5 lg:mt-24">
+                <div class="flex flex-col justify-center items-center px-3">
+                    <div data-aos="zoom-out-right">
+                        <h3 class="font-sahed text-3xl lg:text-6xl text-center font-extrabold py-4">
+                            <span class="text-lime-900">Freshness</span> You Can <br />
+                            Count On, Prices <span class="text-sky-300">You’ll Love</span><span class="text-red-600">!</span>
+                        </h3>
+                        <p class="font-sahed text-xl text-center mt-4">
+                            Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br />
+                            staples, we’ve got you covered every day!
+                        </p>
+                        <img src="c2-assets/hero-vegetables.png" alt="" />
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
