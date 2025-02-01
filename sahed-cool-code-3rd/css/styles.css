@@ -1,4 +1,13 @@
-.sora-sahed {
+*sora-sahed {
+    font-family: "Sora", serif;
+}
+/* .sora-sahed {
     font-family: "Sora", serif;
     font-optical-sizing: auto;
+} */
+#banner-section {
+    background: linear-gradient(180deg, rgba(209, 192, 192, 0.459), rgba(99, 99, 99, 0.601));
+}
+#card-gradient {
+    background: linear-gradient(140deg, rgb(21, 252, 71), rgba(233, 238, 222, 0.72));
 }
